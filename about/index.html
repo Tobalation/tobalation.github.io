@@ -11,11 +11,13 @@
 
     <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content=""/>
-<meta name="twitter:description" content="This page is supposed to be an about page I haven&rsquo;t written it yet so stay tuned.
+<meta name="twitter:description" content="About me Education Software Engineering (International), Faculty of Engineering, King Mongkut&rsquo;s Institute of Technology Ladkrabang.
+Technical Skills I should get around to writing this part. Site under construction!
  This site was built using hugo and a slightly modified coder theme."/>
 
     <meta property="og:title" content="" />
-<meta property="og:description" content="This page is supposed to be an about page I haven&rsquo;t written it yet so stay tuned.
+<meta property="og:description" content="About me Education Software Engineering (International), Faculty of Engineering, King Mongkut&rsquo;s Institute of Technology Ladkrabang.
+Technical Skills I should get around to writing this part. Site under construction!
  This site was built using hugo and a slightly modified coder theme." />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://tobalation.github.io/about/" />
@@ -62,6 +64,9 @@
     <link rel="icon" type="image/png" href="https://tobalation.github.io/img/favicon-32x32.png" sizes="32x32">
     <link rel="icon" type="image/png" href="https://tobalation.github.io/img/favicon-16x16.png" sizes="16x16">
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
+    <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
+    
     <meta name="generator" content="Hugo 0.69.0" />
   </head>
 
@@ -70,7 +75,7 @@
     
   
   <body class="colorscheme-auto">
-    <main class="wrapper">
+    <main id="bg" class="wrapper">
       <nav class="navigation">
   <section class="container">
     <a class="navigation-title" href="https://tobalation.github.io/">
@@ -106,8 +111,11 @@
       <h1></h1>
     </header>
 
-    <h1 id="this-page-is-supposed-to-be-an-about-page">This page is supposed to be an about page</h1>
-<p>I haven&rsquo;t written it yet so stay tuned.</p>
+    <h1 id="about-me">About me</h1>
+<h2 id="education">Education</h2>
+<p>Software Engineering (International), Faculty of Engineering, King Mongkut&rsquo;s Institute of Technology Ladkrabang.</p>
+<h2 id="technical-skills">Technical Skills</h2>
+<p>I should get around to writing this part. Site under construction!</p>
 <hr>
 <p>This site was built using <a href="https://gohugo.io/">hugo</a> and a slightly modified <a href="https://github.com/luizdepra/hugo-coder">coder</a> theme.</p>
 
@@ -135,6 +143,36 @@
 
     
 
+    
+
+    
+    <script>
+      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+          VANTA.WAVES({
+          el: "#bg",
+          mouseControls: true,
+          touchControls: true,
+          minHeight: 200.00,
+          minWidth: 200.00,
+          scale: 1.00,
+          scaleMobile: 1.00,
+          color: 0x111111
+        })
+      }
+      else
+      {
+        VANTA.WAVES({
+        el: "#bg",
+        mouseControls: true,
+        touchControls: true,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x919191
+      })
+      }
+    </script>
     
 
   </body>
