@@ -62,12 +62,11 @@ I&rsquo;ll add more details as I have time. This site is still under constructio
 
     
 
-    <link rel="icon" type="image/png" href="https://tobalation.github.io/img/favicon-32x32.png" sizes="32x32">
-    <link rel="icon" type="image/png" href="https://tobalation.github.io/img/favicon-16x16.png" sizes="16x16">
+    <link rel="icon" type="image/png" href="https://tobalation.github.io/images/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="https://tobalation.github.io/images/favicon-16x16.png" sizes="16x16">
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/100/three.min.js"></script>
-    <script src="https://www.vantajs.com/dist/vanta.waves.min.js"></script>
-    
+
     <meta name="generator" content="Hugo 0.69.0" />
   </head>
 
@@ -76,6 +75,24 @@ I&rsquo;ll add more details as I have time. This site is still under constructio
     
   
   <body class="colorscheme-auto">
+
+     
+     <style>
+      canvas {
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: -9999;
+      }
+    </style>
+
+    <canvas></canvas>
+
+    <script src="https://tobalation.github.io/script/background.js"></script>
+
     <main id="bg" class="wrapper">
       <nav class="navigation">
   <section class="container">
@@ -139,36 +156,6 @@ I&rsquo;ll add more details as I have time. This site is still under constructio
 
     
 
-    
-
-    
-    <script>
-      if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-          VANTA.WAVES({
-          el: "#bg",
-          mouseControls: true,
-          touchControls: true,
-          minHeight: 200.00,
-          minWidth: 200.00,
-          scale: 1.00,
-          scaleMobile: 1.00,
-          color: 0x111111
-        })
-      }
-      else
-      {
-        VANTA.WAVES({
-        el: "#bg",
-        mouseControls: true,
-        touchControls: true,
-        minHeight: 200.00,
-        minWidth: 200.00,
-        scale: 1.00,
-        scaleMobile: 1.00,
-        color: 0x919191
-      })
-      }
-    </script>
     
 
   </body>

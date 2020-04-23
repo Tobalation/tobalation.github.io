@@ -12,6 +12,17 @@
     
     
     <item>
+      <title>About me</title>
+      <link>https://tobalation.github.io/about/</link>
+      <pubDate>Fri, 17 Apr 2020 15:05:47 +0700</pubDate>
+      
+      <guid>https://tobalation.github.io/about/</guid>
+      <description>Education Software Engineering (International), Faculty of Engineering, King Mongkut&amp;rsquo;s Institute of Technology Ladkrabang.
+Technical Skills I should get around to writing this part. Site under construction!
+ This site was built using hugo and a slightly modified coder theme.</description>
+    </item>
+    
+    <item>
       <title>SenseStack</title>
       <link>https://tobalation.github.io/projects/sensestack/</link>
       <pubDate>Fri, 17 Apr 2020 15:05:47 +0700</pubDate>
@@ -20,17 +31,6 @@
       <description>Sense stack is a IoT sensor platform for environmental data collection.
 I was the firmware developer for the project.
 I&amp;rsquo;ll add more details as I have time. This site is still under construction!</description>
-    </item>
-    
-    <item>
-      <title></title>
-      <link>https://tobalation.github.io/about/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      
-      <guid>https://tobalation.github.io/about/</guid>
-      <description>About me Education Software Engineering (International), Faculty of Engineering, King Mongkut&amp;rsquo;s Institute of Technology Ladkrabang.
-Technical Skills I should get around to writing this part. Site under construction!
- This site was built using hugo and a slightly modified coder theme.</description>
     </item>
     
   </channel>
