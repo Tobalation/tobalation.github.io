@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Mobile on Dan&#39;s personal page</title>
+    <link>https://tobalation.github.io/tags/mobile/</link>
+    <description>Recent content in Mobile on Dan&#39;s personal page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 19 May 2020 11:12:38 +0700</lastBuildDate>
+    
+	<atom:link href="https://tobalation.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>VRbike</title>
+      <link>https://tobalation.github.io/projects/vrbike/</link>
+      <pubDate>Tue, 19 May 2020 11:12:38 +0700</pubDate>
+      
+      <guid>https://tobalation.github.io/projects/vrbike/</guid>
+      <description>WIP!</description>
+    </item>
+    
+  </channel>
+</rss>

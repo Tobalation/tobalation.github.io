@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Dan&#39;s personal page</title>
-    <link>https://tobalation.github.io/projects/</link>
-    <description>Recent content in Projects on Dan&#39;s personal page</description>
+    <title>C# on Dan&#39;s personal page</title>
+    <link>https://tobalation.github.io/tags/c#/</link>
+    <description>Recent content in C# on Dan&#39;s personal page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 19 May 2020 11:12:38 +0700</lastBuildDate>
     
-	<atom:link href="https://tobalation.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://tobalation.github.io/tags/c#/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -27,17 +27,6 @@
       
       <guid>https://tobalation.github.io/projects/tidtar/</guid>
       <description>WIP!</description>
-    </item>
-    
-    <item>
-      <title>SenseStack</title>
-      <link>https://tobalation.github.io/projects/sensestack/</link>
-      <pubDate>Fri, 17 Apr 2020 15:05:47 +0700</pubDate>
-      
-      <guid>https://tobalation.github.io/projects/sensestack/</guid>
-      <description>SenseStack is an open source IoT sensor platform for environmental data collection.
-I was the firmware developer for the project.
-I&amp;rsquo;ll add more details as I have time. This site is still under construction!</description>
     </item>
     
   </channel>
