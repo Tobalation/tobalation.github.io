@@ -6,18 +6,15 @@
     <description>Recent content in Mobile on Dan&#39;s personal page</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 19 May 2020 11:12:38 +0700</lastBuildDate>
-    
-	<atom:link href="https://tobalation.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
-    
-    
+    <lastBuildDate>Mon, 28 Dec 2020 11:12:38 +0700</lastBuildDate><atom:link href="https://tobalation.github.io/tags/mobile/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>VRbike</title>
       <link>https://tobalation.github.io/projects/vrbike/</link>
-      <pubDate>Tue, 19 May 2020 11:12:38 +0700</pubDate>
+      <pubDate>Mon, 28 Dec 2020 11:12:38 +0700</pubDate>
       
       <guid>https://tobalation.github.io/projects/vrbike/</guid>
-      <description>WIP!</description>
+      <description>&amp;ldquo;VR bike&amp;rdquo; was a small project that I was contracted by a professor to work on as a developer. The project itself is a very simple and straight forward virtual reality biking game that can be played on a real bicyle with sensor. (on a stationary bike rig of course)
+The virtual reality platform that the game was developed was the Samsung Galaxy View. As for sensing the speed of the bicycle, a custom sensor module was created.</description>
     </item>
     
   </channel>
