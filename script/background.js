@@ -1,21 +1,20 @@
+// Renderer setup
+var canvas = document.querySelector("canvas");
+var renderer = new THREE.WebGLRenderer({canvas: canvas, alpha: true});
+renderer.setClearColor( 0x000000, 0 );
+
 // Scene setup
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(30, 1, 0.1, 1000);
-
 camera.position.z = 4.2;
 
-var canvas = document.querySelector("canvas");
-var renderer = new THREE.WebGLRenderer({canvas: canvas});
-
-// Detect browser theme
+// Detect browser theme initially to set material color
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
-    renderer.setClearColor(0x212121);
     var material = new THREE.MeshBasicMaterial({ 
         color: 0x555555, 
         wireframe: true,
     });
 } else {
-    renderer.setClearColor(0xfafefc);
     var material = new THREE.MeshBasicMaterial({ 
         color: 0xdddddd, 
         wireframe: true,
@@ -42,8 +41,16 @@ function render() {
     requestAnimationFrame(render);
     resize();
 
+    // Rotate icosphere
     icosphere.rotation.x += 0.00035;
     icosphere.rotation.y += 0.0005;
+
+    // Update colors if theme changes
+    if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        icosphere.material.color.set(0x555555);
+    } else {
+        icosphere.material.color.set(0xdddddd);
+    }
 
     renderer.render(scene, camera);
 }
