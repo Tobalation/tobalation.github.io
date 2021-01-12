@@ -1,12 +1,13 @@
+// Scene setup
 var scene = new THREE.Scene();
 var camera = new THREE.PerspectiveCamera(30, 1, 0.1, 1000);
 
-camera.position.z = 3;
+camera.position.z = 4.2;
 
 var canvas = document.querySelector("canvas");
 var renderer = new THREE.WebGLRenderer({canvas: canvas});
 
-//Detect browser theme
+// Detect browser theme
 if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches) {
     renderer.setClearColor(0x212121);
     var material = new THREE.MeshBasicMaterial({ 
@@ -21,11 +22,11 @@ if (window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').match
     });
 }
 
-var geometry = new THREE.IcosahedronGeometry(1, 1);
+// Setup scene objects
+var icosphere = new THREE.Mesh(new THREE.IcosahedronGeometry(1, 1), material);
+scene.add(icosphere);
 
-var cube = new THREE.Mesh(geometry, material);
-scene.add(cube);
-
+// Window resize handling
 function resize() {
     var width = canvas.clientWidth;
     var height = canvas.clientHeight;
@@ -36,11 +37,15 @@ function resize() {
     }
 }
 
+// Actual render loop
 function render() {
     requestAnimationFrame(render);
     resize();
-    cube.rotation.x += 0.0005;
-    cube.rotation.y += 0.001;
+
+    icosphere.rotation.x += 0.00035;
+    icosphere.rotation.y += 0.0005;
+
     renderer.render(scene, camera);
 }
+
 render();
