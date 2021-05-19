@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>data collection on Dan&#39;s personal page</title>
+    <link>https://tobalation.github.io/static/tags/data-collection/</link>
+    <description>Recent content in data collection on Dan&#39;s personal page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Dec 2020 15:05:47 +0700</lastBuildDate><atom:link href="https://tobalation.github.io/static/tags/data-collection/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SenseStack</title>
+      <link>https://tobalation.github.io/static/projects/sensestack/</link>
+      <pubDate>Mon, 28 Dec 2020 15:05:47 +0700</pubDate>
+      
+      <guid>https://tobalation.github.io/static/projects/sensestack/</guid>
+      <description>SenseStack was my final year graduation project for university done with two of my great friends Damian and Sitinut.
+What is SenseStack?    SenseStack is basically an open source IoT sensor platform for environmental data collection. It was created with the intention of creating the basis for anyone to be able to create their own IoT sensor network.
+How does it work?    In a nutshell, the system works as a node based sensor network, with each node having a &amp;ldquo;hub&amp;rdquo; device that sensor modules connect to.</description>
+    </item>
+    
+  </channel>
+</rss>

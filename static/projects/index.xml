@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Dan&#39;s personal page</title>
+    <link>https://tobalation.github.io/static/projects/</link>
+    <description>Recent content in Projects on Dan&#39;s personal page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 28 Dec 2020 15:05:47 +0700</lastBuildDate><atom:link href="https://tobalation.github.io/static/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>SenseStack</title>
+      <link>https://tobalation.github.io/static/projects/sensestack/</link>
+      <pubDate>Mon, 28 Dec 2020 15:05:47 +0700</pubDate>
+      
+      <guid>https://tobalation.github.io/static/projects/sensestack/</guid>
+      <description>SenseStack was my final year graduation project for university done with two of my great friends Damian and Sitinut.
+What is SenseStack?    SenseStack is basically an open source IoT sensor platform for environmental data collection. It was created with the intention of creating the basis for anyone to be able to create their own IoT sensor network.
+How does it work?    In a nutshell, the system works as a node based sensor network, with each node having a &amp;ldquo;hub&amp;rdquo; device that sensor modules connect to.</description>
+    </item>
+    
+    <item>
+      <title>VRbike</title>
+      <link>https://tobalation.github.io/static/projects/vrbike/</link>
+      <pubDate>Mon, 28 Dec 2020 11:12:38 +0700</pubDate>
+      
+      <guid>https://tobalation.github.io/static/projects/vrbike/</guid>
+      <description>&amp;ldquo;VR bike&amp;rdquo; was a small project that I was contracted by a professor to work on as a developer. The project itself is a very simple and straight forward virtual reality biking game that can be played on a real bicyle with sensor. (on a stationary bike rig of course)
+The virtual reality platform that the game was developed was the Samsung Galaxy View. As for sensing the speed of the bicycle, a custom sensor module was created.</description>
+    </item>
+    
+    <item>
+      <title>TIDTAR</title>
+      <link>https://tobalation.github.io/static/projects/tidtar/</link>
+      <pubDate>Mon, 28 Dec 2020 11:11:56 +0700</pubDate>
+      
+      <guid>https://tobalation.github.io/static/projects/tidtar/</guid>
+      <description>TIDTAR is an acronym for the project I worked on at GISTDA for research purposes during the summer internship of my second year in university. The project was entered in the 2018 Thailand ICT Awards competition.
+What is TIDTAR?    TIDTAR (Traffic Information visualization Tool On Augmented Reality) is a experimental tool that was developed for the original Microsoft Hololens for use in the aerospace industry.
+It shows local air traffic data of an airport over a certain time period in the form of a holographic miniature with the details and settings all as holograms.</description>
+    </item>
+    
+  </channel>
+</rss>

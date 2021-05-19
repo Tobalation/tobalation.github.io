@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Dan&#39;s personal page</title>
+    <link>https://tobalation.github.io/static/posts/</link>
+    <description>Recent content in Posts on Dan&#39;s personal page</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 19 May 2021 10:13:11 +0700</lastBuildDate><atom:link href="https://tobalation.github.io/static/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hi there!</title>
+      <link>https://tobalation.github.io/static/posts/static_explain/</link>
+      <pubDate>Wed, 19 May 2021 10:13:11 +0700</pubDate>
+      
+      <guid>https://tobalation.github.io/static/posts/static_explain/</guid>
+      <description>Welcome    This site is mainly a basic HTML backup for my much more interesting Interactive portfolio that I built with Godot Engine.
+You can find easily copy/paste-able plain text here and my contact information.</description>
+    </item>
+    
+  </channel>
+</rss>
